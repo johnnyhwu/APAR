@@ -1,0 +1,12 @@
+python test.py \
+--model apar \
+--wnadb_id j4960qmd \
+--wandb_name ckpt/semi_finetune/85-99-0.0513.pt \
+--device 0 \
+--seed 47 \
+--dataset tw_hp_ntpc_a \
+--batch_size 256 \
+--val_ratio 0.1 \
+--numerical_feature_encoding log2_delta \
+--categorical_feature_encoding label \
+--target_encoding log2_delta

@@ -1,0 +1,12 @@
+python test.py \
+--model apar \
+--wnadb_id blyxteah \
+--wandb_name ckpt/semi_finetune/47-99-0.0466.pt \
+--device 0 \
+--seed 47 \
+--dataset tw_hp_txg_b \
+--batch_size 256 \
+--val_ratio 0.1 \
+--numerical_feature_encoding log2_delta \
+--categorical_feature_encoding label \
+--target_encoding log2_delta
